@@ -16,9 +16,3 @@ read filename
 touch "$filename"
 echo "Created an empty file called $filename"
 
-# optional: check that the file really exists
-if [ -e "$filename" ]; then
-  echo "Confirmed: $filename was created successfully."
-else
-  echo "Oops! Something went wrong."
-fi
